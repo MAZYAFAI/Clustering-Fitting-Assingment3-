@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import MinMaxScaler
 
 # Read the data from the csv file 
-df_countries=pd.read_csv("C:\\Users\\MAZ YAFAI\\Desktop\\Maz assingment\\22092593.csv",skiprows=4)
+df_countries=pd.read_csv("C:\\Users\\MAZ YAFAI\\Desktop\\Maz assingment\\API_SP.POP.DPND_DS2_en_csv_v2_6303835.csv",skiprows=4)
 
 
 def age_percentage_model(year, a, b, c):
