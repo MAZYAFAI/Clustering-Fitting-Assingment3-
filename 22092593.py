@@ -6,6 +6,7 @@ from scipy.optimize import curve_fit
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import MinMaxScaler
 
+# Read the data from the csv file 
 df_countries=pd.read_csv("C:\\Users\\MAZ YAFAI\\Desktop\\Maz assingment\\22092593.csv",skiprows=4)
 
 
